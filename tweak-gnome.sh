@@ -43,6 +43,9 @@ gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profi
 dconf write /org/gnome/shell/extensions/dash-to-dock/dock-position '"LEFT"'
 dconf write /org/gnome/shell/extensions/dash-to-dock/disable-overview-on-startup true
 dconf write /org/gnome/shell/extensions/dash-to-dock/dock-fixed true
+donf write /org/gnome/shell/extensions/dash-to-dock/click-action '"minimize-or-previews"'
+dconf write /org/gnome/shell/extensions/dash-to-dock/custom-theme-shrink true
+
 dconf write /org/gnome/shell/extensions/openweatherrefined/position-in-panel '"left"'
 dconf write /org/gnome/shell/extensions/openweatherrefined/show-comment-in-panel true
 dconf write /org/gnome/shell/extensions/notifications-alert/color '"rgb(51,209,122)"'
