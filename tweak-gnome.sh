@@ -85,3 +85,5 @@ dconf write /org/gnome/Ptyxis/default-columns "uint32 120"
 dconf write /org/gnome/Ptyxis/default-rows "uint32 35"
 
 dconf write /org/gnome/shell/extensions/appindicator/legacy-tray-enabled true
+
+dconf write /org/gnome/desktop/interface/clock-show-weekday true
