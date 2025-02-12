@@ -34,28 +34,25 @@ gsettings set org.gnome.desktop.wm.preferences num-workspaces 1
 gsettings set org.gnome.desktop.interface enable-hot-corners false
 
 # Get the default profile ID
-PROFILE_ID=$(gsettings get org.gnome.Terminal.ProfilesList default | tr -d "'")
+#PROFILE_ID=$(gsettings get org.gnome.Terminal.ProfilesList default | tr -d "'")
 
 # Set the terminal width and height
-gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:$PROFILE_ID/ default-size-columns 185
-gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:$PROFILE_ID/ default-size-rows 35
+#gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:$PROFILE_ID/ default-size-columns 185
+#gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:$PROFILE_ID/ default-size-rows 35
 
 dconf write /org/gnome/shell/extensions/dash-to-dock/dock-position '"LEFT"'
 dconf write /org/gnome/shell/extensions/dash-to-dock/disable-overview-on-startup true
 dconf write /org/gnome/shell/extensions/dash-to-dock/dock-fixed true
-donf write /org/gnome/shell/extensions/dash-to-dock/click-action '"minimize-or-previews"'
+dconf write /org/gnome/shell/extensions/dash-to-dock/click-action '"minimize-or-previews"'
 dconf write /org/gnome/shell/extensions/dash-to-dock/custom-theme-shrink true
 
 dconf write /org/gnome/shell/extensions/openweatherrefined/position-in-panel '"left"'
 dconf write /org/gnome/shell/extensions/openweatherrefined/show-comment-in-panel true
 dconf write /org/gnome/shell/extensions/notifications-alert/color '"rgb(51,209,122)"'
 
-gsettings set org.gnome.mutter experimental-features '["variable-refresh-rate"]'
-
 #gnome-shell --replace &
 
 dconf write /org/gnome/shell/extensions/dash-to-dock/dock-fixed true
-gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
 
 dconf write /org/gnome/settings-daemon/plugins/power/sleep-inactive-ac-type '"nothing"'
 
@@ -87,3 +84,7 @@ dconf write /org/gnome/Ptyxis/default-rows "uint32 35"
 dconf write /org/gnome/shell/extensions/appindicator/legacy-tray-enabled true
 
 dconf write /org/gnome/desktop/interface/clock-show-weekday true
+
+# Experimental
+gsettings set org.gnome.mutter experimental-features '["scale-monitor-framebuffer", "variable-refresh-rate"]'
+

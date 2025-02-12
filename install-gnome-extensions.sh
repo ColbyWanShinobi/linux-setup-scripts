@@ -52,7 +52,7 @@ extlist=(
 "https://extensions.gnome.org/extension/988/harddisk-led/"
 "https://extensions.gnome.org/extension/6000/quick-settings-audio-devices-renamer/"
 "https://extensions.gnome.org/extension/6898/dual-monitor-toggle/"
-"https://extensions.gnome.org/extension/6469/picture-of-the-day/"
+"https://extensions.gnome.org/extension/1262/bing-wallpaper-changer/"
 "https://extensions.gnome.org/extension/6679/power-profile-indicator/"
 "https://extensions.gnome.org/extension/6583/auto-power-profile/"
 "https://extensions.gnome.org/extension/5362/wireguard-vpn-extension/"
