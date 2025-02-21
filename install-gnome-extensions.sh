@@ -56,6 +56,7 @@ extlist=(
 "https://extensions.gnome.org/extension/6679/power-profile-indicator/"
 "https://extensions.gnome.org/extension/6583/auto-power-profile/"
 "https://extensions.gnome.org/extension/5362/wireguard-vpn-extension/"
+"https://extensions.gnome.org/extension/5964/quick-settings-audio-devices-hider/"
 )
 
 CURRENT_GNOME_VERSION=$(gnome-shell --version | grep -oP '\d+\.\d+' | head -1 | cut -f1 -d.)
