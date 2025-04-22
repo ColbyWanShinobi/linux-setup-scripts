@@ -58,6 +58,7 @@ extlist=(
 "https://extensions.gnome.org/extension/5362/wireguard-vpn-extension/"
 "https://extensions.gnome.org/extension/5964/quick-settings-audio-devices-hider/"
 "https://extensions.gnome.org/extension/1183/utcclock/"
+"https://extensions.gnome.org/extension/3733/tiling-assistant/"
 )
 
 CURRENT_GNOME_VERSION=$(gnome-shell --version | grep -oP '\d+\.\d+' | head -1 | cut -f1 -d.)
