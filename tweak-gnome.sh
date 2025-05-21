@@ -5,6 +5,7 @@
 # Move Show Apps Button
 #gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 dconf write /org/gnome/shell/extensions/dash-to-dock/show-apps-at-top true
+dconf write /org/gnome/shell/extensions/dash-to-dock/running-indicator-style 'DOTS'
 
 # Use dark theme
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
@@ -23,6 +24,7 @@ gsettings set org.gnome.system.locale region 'en_US.UTF-8'
 
 # Enable maximize and minimize buttons and move them to the top left corner
 gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
+gsettings set org.cinnamon.desktop.wm.preferences button-layout 'close,minimize,maximize:'
 
 # Change touchpad scroll direction to natural
 gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll false
@@ -87,4 +89,3 @@ dconf write /org/gnome/desktop/interface/clock-show-weekday true
 
 # Experimental
 gsettings set org.gnome.mutter experimental-features '["scale-monitor-framebuffer", "variable-refresh-rate"]'
-
