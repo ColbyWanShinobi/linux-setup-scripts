@@ -101,3 +101,7 @@ dconf write /org/gnome/shell/extensions/dash-to-dock/hot-keys false
 gnome-extensions disable background-logo@fedorahosted.org
 gnome-extensions disable hotedge@jonathan.jdoda.ca
 gnome-extensions disable logomenu@aryan_k
+gnome-extensions disable Move_Clock@rmy.pobox.com
+gnome-extensions disable tilingshell@ferrarodomenico.com
+
+dconf write /org/gnome/shell/extensions/advanced-weather/panel-position '"left"'
