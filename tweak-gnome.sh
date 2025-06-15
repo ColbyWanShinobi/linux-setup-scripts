@@ -89,3 +89,15 @@ dconf write /org/gnome/desktop/interface/clock-show-weekday true
 
 # Experimental
 gsettings set org.gnome.mutter experimental-features '["scale-monitor-framebuffer", "variable-refresh-rate"]'
+
+dconf write /org/gnome/shell/extensions/just-perfection/support-notifier-type "0"
+
+dconf write /org/gtk/gtk4/settings/file-chooser/show-hidden true
+
+dconf write /org/gnome/shell/extensions/dash-to-dock/running-indicator-style '"DOTS"'
+
+dconf write /org/gnome/shell/extensions/dash-to-dock/hot-keys false
+
+gnome-extensions disable background-logo@fedorahosted.org
+gnome-extensions disable hotedge@jonathan.jdoda.ca
+gnome-extensions disable logomenu@aryan_k
