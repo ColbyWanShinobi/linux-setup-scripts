@@ -5,7 +5,6 @@
 # Move Show Apps Button
 #gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 dconf write /org/gnome/shell/extensions/dash-to-dock/show-apps-at-top true
-dconf write /org/gnome/shell/extensions/dash-to-dock/running-indicator-style 'DOTS'
 
 # Use dark theme
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
