@@ -104,3 +104,7 @@ gnome-extensions disable Move_Clock@rmy.pobox.com
 gnome-extensions disable tilingshell@ferrarodomenico.com
 
 dconf write /org/gnome/shell/extensions/advanced-weather/panel-position '"left"'
+
+dconf write /org/gnome/shell/extensions/advanced-weather/wind-speed-unit '"mph"'
+
+dconf write /org/gnome/shell/extensions/advanced-weather/use-fahrenheit true
