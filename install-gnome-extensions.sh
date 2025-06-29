@@ -46,8 +46,8 @@ extlist=(
 "https://extensions.gnome.org/extension/6242/emoji-copy/"
 "https://extensions.gnome.org/extension/6278/battery-usage-wattmeter/"
 "https://extensions.gnome.org/extension/6325/control-monitor-brightness-and-volume-with-ddcutil/"
-"https://extensions.gnome.org/extension/6655/openweather/"
-"https://extensions.gnome.org/extension/2/move-clock/"
+#"https://extensions.gnome.org/extension/6655/openweather/"
+#"https://extensions.gnome.org/extension/2/move-clock/"
 "https://extensions.gnome.org/extension/744/hide-activities-button/"
 "https://extensions.gnome.org/extension/988/harddisk-led/"
 "https://extensions.gnome.org/extension/6000/quick-settings-audio-devices-renamer/"
@@ -60,7 +60,7 @@ extlist=(
 "https://extensions.gnome.org/extension/1183/utcclock/"
 "https://extensions.gnome.org/extension/3733/tiling-assistant/"
 "https://extensions.gnome.org/extension/7603/advanced-weather-companion/"
-"https://extensions.gnome.org/extension/7215/restart-to/"
+#"https://extensions.gnome.org/extension/7215/restart-to/"
 )
 
 CURRENT_GNOME_VERSION=$(gnome-shell --version | grep -oP '\d+\.\d+' | head -1 | cut -f1 -d.)
