@@ -49,6 +49,7 @@ dconf write /org/gnome/shell/extensions/dash-to-dock/dock-position '"LEFT"'
 dconf write /org/gnome/shell/extensions/dash-to-dock/hot-keys false
 dconf write /org/gnome/shell/extensions/dash-to-dock/running-indicator-style '"DOTS"'
 dconf write /org/gnome/shell/extensions/dash-to-dock/show-apps-at-top true
+dconf write /org/gnome/shell/extensions/dash-to-dock/show-mounts false
 dconf write /org/gnome/shell/extensions/just-perfection/support-notifier-type "0"
 dconf write /org/gnome/shell/extensions/notifications-alert/color '"rgb(51,209,122)"'
 dconf write /org/gnome/shell/extensions/openweatherrefined/position-in-panel '"left"'
