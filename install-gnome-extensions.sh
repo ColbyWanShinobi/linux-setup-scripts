@@ -61,6 +61,7 @@ extlist=(
 "https://extensions.gnome.org/extension/3733/tiling-assistant/"
 "https://extensions.gnome.org/extension/7603/advanced-weather-companion/"
 #"https://extensions.gnome.org/extension/7215/restart-to/"
+"https://extensions.gnome.org/extension/3928/auto-select-headset/"
 )
 
 CURRENT_GNOME_VERSION=$(gnome-shell --version | grep -oP '\d+\.\d+' | head -1 | cut -f1 -d.)
