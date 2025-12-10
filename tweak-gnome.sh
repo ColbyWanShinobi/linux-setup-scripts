@@ -28,6 +28,7 @@ dconf write /org/gnome/desktop/peripherals/touchpad/tap-to-click true
 dconf write /org/gnome/desktop/peripherals/touchpad/two-finger-scrolling-enabled true
 dconf write /org/gnome/desktop/wm/preferences/button-layout '"close,minimize,maximize:"'
 dconf write /org/gnome/desktop/wm/preferences/num-workspaces 1
+dconf write /org/gnome/mutter/check-alive-timeout "uint32 20000"
 dconf write /org/gnome/mutter/dynamic-workspaces false
 dconf write /org/gnome/mutter/edge-tiling true
 dconf write /org/gnome/mutter/experimental-features '["scale-monitor-framebuffer", "variable-refresh-rate"]'
@@ -41,6 +42,7 @@ dconf write /org/gnome/shell/extensions/advanced-weather/panel-position '"left"'
 dconf write /org/gnome/shell/extensions/advanced-weather/use-fahrenheit true
 dconf write /org/gnome/shell/extensions/advanced-weather/wind-speed-unit '"mph"'
 dconf write /org/gnome/shell/extensions/appindicator/legacy-tray-enabled true
+dconf write /org/gnome/shell/extensions/dash-to-dock/background-opacity "0.5"
 dconf write /org/gnome/shell/extensions/dash-to-dock/click-action '"minimize-or-previews"'
 dconf write /org/gnome/shell/extensions/dash-to-dock/custom-theme-shrink true
 dconf write /org/gnome/shell/extensions/dash-to-dock/disable-overview-on-startup true
@@ -51,7 +53,6 @@ dconf write /org/gnome/shell/extensions/dash-to-dock/running-indicator-style '"D
 dconf write /org/gnome/shell/extensions/dash-to-dock/show-apps-at-top true
 dconf write /org/gnome/shell/extensions/dash-to-dock/show-mounts false
 dconf write /org/gnome/shell/extensions/dash-to-dock/transparency-mode '"FIXED"'
-dconf write /org/gnome/shell/extensions/dash-to-dock/background-opacity "0.5"
 dconf write /org/gnome/shell/extensions/just-perfection/support-notifier-type "0"
 dconf write /org/gnome/shell/extensions/notifications-alert/color '"rgb(51,209,122)"'
 dconf write /org/gnome/shell/extensions/openweatherrefined/position-in-panel '"left"'
